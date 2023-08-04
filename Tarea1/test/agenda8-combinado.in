@@ -1,0 +1,69 @@
+crearAgenda
+
+# se crean 10 eventos para ingresarlos a la agenda
+
+crearFecha 22/3/2023
+crearEvento 1 Descripcion uno
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 2 Descripcion dos
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 3 Descripcion tres
+agregarEnAgenda
+
+crearFecha 1/4/2023
+crearEvento 4 Descripcion cuatro
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 5 Descripcion cinco
+agregarEnAgenda
+
+crearFecha 23/10/2023
+crearEvento 6 Descripcion seis
+agregarEnAgenda
+
+crearFecha 30/10/2023
+crearEvento 7 Descripcion siete
+agregarEnAgenda
+
+crearFecha 1/1/1900
+crearEvento 8 Descripcion ocho
+agregarEnAgenda
+
+crearFecha 1/12/2500
+crearEvento 9 Descripcion nueve
+agregarEnAgenda
+
+crearFecha 10/2/2023
+crearEvento 10 Descripcion diez
+agregarEnAgenda
+
+imprimirAgenda
+
+posponerEnAgenda 2 1
+posponerEnAgenda 1 2
+posponerEnAgenda 5 60
+
+imprimirAgenda
+
+removerDeAgenda 9
+removerDeAgenda 8
+removerDeAgenda 3
+
+imprimirAgenda
+
+# Hay dos eventos fecha
+
+hayEventosFechaAgenda 24/3/2023
+
+# No hay eventos fecha
+
+hayEventosFechaAgenda 23/3/2023
+
+liberarAgenda
+
+Fin

@@ -1,0 +1,28 @@
+crearAgenda
+
+# creo cuatro eventos para ingresarlos a la agenda
+
+crearFecha 22/3/2023
+crearEvento 1 Descripcion uno
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 2 Descripcion dos
+agregarEnAgenda
+
+crearFecha 24/3/2023
+crearEvento 3 Descripcion tres
+agregarEnAgenda
+
+crearFecha 1/4/2023
+crearEvento 4 Descripcion cuatro
+agregarEnAgenda
+
+imprimirAgenda
+
+# posponer evento 1 tres dias
+posponerEnAgenda 1 3
+
+imprimirAgenda
+liberarAgenda
+Fin

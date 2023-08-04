@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 
-int PromClase(int n1, int n2, int n3, int n4, int n5){
-    int resultado = n1;
+float PromClase(int cal1, int cal2, int cal3, int cal4, int cal5){
+    float resultado = cal1;
     int arr[4];
-    arr[0]=n2;
-    arr[1]=n3;
-    arr[2]=n4;
-    arr[3]=n5;
+    arr[0]=cal2;
+    arr[1]=cal3;
+    arr[2]=cal4;
+    arr[3]=cal5;
     for (size_t i = 0; i < 4; i++)
     {
         if (resultado > arr[i])
@@ -17,7 +17,7 @@ int PromClase(int n1, int n2, int n3, int n4, int n5){
         
     }
     
-    return resultado = (n1 + n2 + n3 + n4 + n5 - resultado) / 4;
+    return resultado = (cal1 + cal2 + cal3 + cal4 + cal5 - resultado) / 4;
 
 }
 
@@ -29,7 +29,7 @@ int main()
     scanf("%d", &n3);
     scanf("%d", &n4);
     scanf("%d", &n5);
-    int resu = PromClase(n1,n2,n3,n4,n5);
-    printf("%d", resu);
+    float resu = PromClase(n1,n2,n3,n4,n5);
+    printf("%f", resu);
     return 0;
 }

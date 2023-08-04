@@ -1,0 +1,33 @@
+crearAgenda
+
+# se crean 5 eventos para ingresarlos a la agenda
+
+crearFecha 22/3/2023
+crearEvento 1 Descripcion uno
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 2 Descripcion dos
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 3 Descripcion tres
+agregarEnAgenda
+
+crearFecha 1/4/2023
+crearEvento 4 Descripcion cuatro
+agregarEnAgenda
+
+crearFecha 23/3/2023
+crearEvento 5 Descripcion cinco
+agregarEnAgenda
+
+# No hay eventos fecha
+hayEventosFechaAgenda 20/3/2023
+
+# Hay tres eventos fecha
+hayEventosFechaAgenda 23/3/2023
+
+liberarAgenda
+
+Fin

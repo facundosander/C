@@ -1,0 +1,23 @@
+crearFecha 22/3/2023
+crearEvento 1 Descripcion 1
+imprimirFechaEvento
+posponerEvento 30
+imprimirFechaEvento
+posponerEvento 10
+imprimirEvento
+liberarEvento
+
+# año bisiesto 
+
+crearFecha 01/02/2024
+crearEvento 2 Descripcion 2
+imprimirFechaEvento
+posponerEvento 28
+imprimirFechaEvento
+posponerEvento 1
+imprimirEvento
+liberarEvento
+
+Fin
+
+

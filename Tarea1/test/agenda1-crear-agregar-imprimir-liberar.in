@@ -1,0 +1,10 @@
+crearAgenda
+
+# creo evento para ingresarlo a la agenda
+crearFecha 22/3/2023
+crearEvento 1 Descripcion uno
+
+agregarEnAgenda
+imprimirAgenda
+liberarAgenda
+Fin

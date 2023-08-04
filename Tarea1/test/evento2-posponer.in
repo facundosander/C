@@ -1,0 +1,7 @@
+crearFecha 22/3/2023
+crearEvento 1 Descripcion 1
+imprimirFechaEvento
+posponerEvento 30
+imprimirFechaEvento
+liberarEvento
+Fin
