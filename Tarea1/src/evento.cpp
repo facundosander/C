@@ -3,7 +3,9 @@
 struct rep_evento {
     /************ Parte 4.1 ************/
     /*Escriba el código a continuación */
-
+    int id;
+    char descripcion[MAX_DESCRIPCION];
+    TFecha fecha;
     /****** Fin de parte Parte 4.1 *****/
 };
 
@@ -11,7 +13,10 @@ TEvento crearTEvento(int id, const char descripcion[MAX_DESCRIPCION], TFecha fec
     TEvento nuevoEvento = NULL;
     /************ Parte 4.2 ************/
     /*Escriba el código a continuación */
-
+    nuevoEvento = new rep_evento;
+    nuevoEvento->id =  id;
+    strcpy(nuevoEvento->descripcion, descripcion);
+    nuevoEvento->fecha = fecha;
     /****** Fin de parte Parte 4.2 *****/
     return nuevoEvento;
 }
