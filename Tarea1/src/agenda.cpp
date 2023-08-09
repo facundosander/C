@@ -3,7 +3,8 @@
 struct rep_agenda {
     /************ Parte 5.1 ************/
     /*Escriba el código a continuación */
-
+    TEvento eventos[MAX_EVENTOS];
+    unsigned int tope;
     /****** Fin de parte Parte 5.1 *****/
 };
 
@@ -11,15 +12,40 @@ TAgenda crearTAgenda() {
     TAgenda nuevaAgenda = NULL;
     /************ Parte 5.2 ************/
     /*Escriba el código a continuación */
-
+    nuevaAgenda = new rep_agenda;
+    nuevaAgenda->tope=0;
     /****** Fin de parte Parte 5.2 *****/
     return nuevaAgenda;
 }
 
+// primero comparar con el primero, si el evento es mas chico que el primer evento en la agenda, agregar el evento el el primer lugar
+// sino, si es igual agregar en el segundo lugar y si existe mas eventos a la derecha, moverlos un lugar a la derecha.
+// sino, si es mas grande comparar con el siguiente elemento:
+// si el siguiente elemento es mas grande agregar en el medio, si es igual, agregar despues, si es mas chico, mover al segundo elemento, repetir secuencia,
+// si no entra en ninguana de estas condiciones, agregar al final.
 void agregarEnAgenda(TAgenda &agenda, TEvento evento) {
     /************ Parte 5.2 ************/
     /*Escriba el código a continuación */
-
+    if (agenda->tope < MAX_EVENTOS)
+    {
+        if (agenda->tope==0)
+        {
+            *agenda->eventos = evento;
+            agenda->tope++;
+        }else
+        {
+            for (int i = 0; i < agenda->tope; i++)
+            {
+                if (compararTFechas(fechaTEvento(*agenda->eventos),fechaTEvento(evento))==1)
+                {
+                    
+                }
+                
+            }
+            
+        }
+    
+    }
     /****** Fin de parte Parte 5.2 *****/
 }
 
