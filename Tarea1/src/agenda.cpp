@@ -18,18 +18,14 @@ TAgenda crearTAgenda() {
     return nuevaAgenda;
 }
 
-// primero comparar con el primero, si el evento es mas chico que el primer evento en la agenda, agregar el evento el el primer lugar
-// sino, si es igual agregar en el segundo lugar y si existe mas eventos a la derecha, moverlos un lugar a la derecha.
-// sino, si es mas grande comparar con el siguiente elemento:
-// si el siguiente elemento es mas grande agregar en el medio, si es igual, agregar despues, si es mas chico, mover al segundo elemento, repetir secuencia,
-// si no entra en ninguana de estas condiciones, agregar al final.
+//Funcion que devuelve la posicion de un evento dentro de una agenda
 int posicion (TAgenda &agenda, TEvento &evento){
     TEvento *aux;
     aux = agenda->eventos;
     int posicion = 0;
     while (posicion != agenda->tope)
     {
-        if (compararTFechas(fechaTEvento(evento), fechaTEvento(*aux)) == -1)
+        if (compararTFechas(fechaTEvento(evento), fechaTEvento(*aux)) == -1 || compararTFechas(fechaTEvento(evento), fechaTEvento(*aux)) == 0)
         {
             return posicion;
         }
@@ -48,33 +44,24 @@ void agregarEnAgenda(TAgenda &agenda, TEvento evento) {
     /*Escriba el código a continuación */
     if (agenda->tope < MAX_EVENTOS)
     {
-        if (agenda->tope==0)
+        if (agenda->tope == 0)
         {
-            *agenda->eventos = evento;
+            agenda->eventos[0] = evento;
             agenda->tope++;
-        }else
-        {
-            int pos = posicion(agenda,evento);
-            TEvento *aux;
-            aux = agenda->eventos;
-            if (agenda->tope < pos)
-            {
-                aux[pos] = evento;
-                agenda->tope++;
-            }else
-            {
-                for (int i = agenda->tope; i > pos; i--) {
-                aux[i] = aux[i - 1];
-                }
-            
-            
-                aux[pos] = evento;
-                agenda->tope++;
-            }
-            
-            
         }
-    
+        else
+        {
+            int pos = posicion(agenda, evento);
+
+            // Mueve todos los eventos posteriores hacia atrás para hacer espacio
+            for (int i = agenda->tope; i > pos; i--) {
+                agenda->eventos[i] = agenda->eventos[i - 1];
+            }
+
+            // Inserta el nuevo evento en la posición adecuada
+            agenda->eventos[pos] = evento;
+            agenda->tope++;
+        }
     }
     /****** Fin de parte Parte 5.2 *****/
 }
@@ -124,7 +111,6 @@ bool estaEnAgenda(TAgenda agenda, int id) {
 }
 
 TEvento obtenerDeAgenda(TAgenda agenda, int id) {
-    TEvento res = NULL;
     /************ Parte 5.5 ************/
     /*Escriba el código a continuación */
     TEvento *aux;
@@ -132,24 +118,43 @@ TEvento obtenerDeAgenda(TAgenda agenda, int id) {
     for (int i = 0; i < agenda->tope; i++)
     {
         if (idTEvento(aux[i]) == id){
-            return res = aux[i];
+            return aux[i];
         } 
     }
     /****** Fin de parte Parte 5.5 *****/
-    return res;
+    return NULL;  // Devolver NULL si no se encontró el evento
 }
 
 void posponerEnAgenda(TAgenda &agenda, int id, nat n) {
     /************ Parte 5.5 ************/
     /*Escriba el código a continuación */
-    
-    /****** Fin de parte Parte 5.5 *****/
+    TEvento nuevaFecha = obtenerDeAgenda(agenda, id);
+    posponerTEvento(nuevaFecha, n);
+    for (int i = 1; i < agenda->tope; i++) {
+        TEvento aux = agenda->eventos[i];
+        int j = i - 1;
+        
+        while (j >= 0 && compararTFechas(fechaTEvento(agenda->eventos[j]), fechaTEvento(aux)) > 0) {
+            agenda->eventos[j + 1] = agenda->eventos[j];
+            j = j - 1;
+        }
+        agenda->eventos[j + 1] = aux;
+    }
+    /****** Fin de pmarte Parte 5.5 *****/
 }
 
 void imprimirEventosFecha(TAgenda agenda, TFecha fecha) {
     /************ Parte 5.7 ************/
     /*Escriba el código a continuación */
-
+    for (int i = 0; i < agenda->tope; i ++){
+        TEvento aux = agenda->eventos[i];
+        TFecha fechaux = fechaTEvento(aux);
+        if (compararTFechas(fechaux,fecha) == 0){
+            imprimirTEvento(aux);
+        }
+        
+    }
+    
     /****** Fin de parte Parte 5.7 *****/
 }
 
@@ -160,15 +165,60 @@ bool hayEventosFecha(TAgenda agenda, TFecha fecha) {
     /*La función debe ejecutar una versión */
     /*Iterativa del algoritmo de búsqueda  */
     /*binaria.                              */
+    int inicio = 0;                        
+    int fin = agenda->tope - 1;            
+
+    while (inicio <= fin) {
+        int medio = (inicio + fin) / 2; 
+        int comparacion = compararTFechas(fechaTEvento(agenda->eventos[medio]), fecha);
+        if (comparacion == 0) {
+            return true;
+        } else if (comparacion > 0) {
+            fin = medio - 1;
+        } else {
+            inicio = medio + 1;
+        }
+    }
 
     /****** Fin de parte Parte 5.7 *****/
     return res;
 }
 
+int posicionid (TAgenda &agenda, TEvento &evento){
+    TEvento *aux;
+    aux = agenda->eventos;
+    int posicion = 0;
+    while (posicion != agenda->tope)
+    {
+        if (*aux == evento)
+        {
+            return posicion;
+        }
+        else
+        {
+            aux++;
+            posicion++;
+        }
+        
+        
+    }
+    return posicion;
+}
 void removerDeAgenda(TAgenda &agenda, int id) {
     /************ Parte 5.8 ************/
     /*Escriba el código a continuación */
-
+    TEvento fechaBorrar = obtenerDeAgenda(agenda, id);
+    if (fechaBorrar == NULL) {
+        return;
+    }
+    int pos = posicionid(agenda, fechaBorrar);
+    if (pos >= 0 && pos < agenda->tope) {
+        liberarTEvento(agenda->eventos[pos]);
+        for (int i = pos; i < agenda->tope - 1; i++){
+            agenda->eventos[i] = agenda->eventos[i + 1];
+        }
+        agenda->tope--;
+    }
     /****** Fin de parte Parte 5.8 *****/
 }
 
