@@ -1,0 +1,7 @@
+1>2>#  creo cuatro eventos para ingresarlos a la agenda.
+3>4>5>6>7>8>9>10>11>12>13>14>15>#  chequéo si existen diferentes ids de eventos y los obtengo.
+16>El evento con id 3 está en la agenda.
+17>El evento con id 5 NO está en la agenda.
+18>El evento con id 4 está en la agenda.
+19>El evento con id 0 NO está en la agenda.
+20>21>Fin.

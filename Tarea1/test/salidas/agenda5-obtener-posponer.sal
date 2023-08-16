@@ -1,0 +1,40 @@
+1>2>#  creo cuatro eventos para ingresarlos a la agenda.
+3>4>5>6>7>8>9>10>11>12>13>14>15>Evento 1:  Descripcion uno
+Fecha: 22/3/2023
+Evento 2:  Descripcion dos
+Fecha: 23/3/2023
+Evento 3:  Descripcion tres
+Fecha: 24/3/2023
+Evento 4:  Descripcion cuatro
+Fecha: 1/4/2023
+16>#  posponer evento 2 quince dias.
+17>La nueva fecha del evento 2 pospuesto 15 dias es: 7/4/2023
+18>Evento 1:  Descripcion uno
+Fecha: 22/3/2023
+Evento 3:  Descripcion tres
+Fecha: 24/3/2023
+Evento 4:  Descripcion cuatro
+Fecha: 1/4/2023
+Evento 2:  Descripcion dos
+Fecha: 7/4/2023
+19>#  posponer evento 3 treinta dias.
+20>La nueva fecha del evento 3 pospuesto 30 dias es: 23/4/2023
+21>Evento 1:  Descripcion uno
+Fecha: 22/3/2023
+Evento 4:  Descripcion cuatro
+Fecha: 1/4/2023
+Evento 2:  Descripcion dos
+Fecha: 7/4/2023
+Evento 3:  Descripcion tres
+Fecha: 23/4/2023
+22>#  posponer evento 4 cincuenta dias (y vuelve al orden original).
+23>La nueva fecha del evento 4 pospuesto 50 dias es: 21/5/2023
+24>Evento 1:  Descripcion uno
+Fecha: 22/3/2023
+Evento 2:  Descripcion dos
+Fecha: 7/4/2023
+Evento 3:  Descripcion tres
+Fecha: 23/4/2023
+Evento 4:  Descripcion cuatro
+Fecha: 21/5/2023
+25>26>Fin.
