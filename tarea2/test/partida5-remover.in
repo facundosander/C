@@ -1,0 +1,41 @@
+crearPartida
+
+# se crean 5 jugadas para ingresarlos a la partida
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+
+crearJugada
+2 1 1 2 2
+agregarEnPartida
+
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+
+crearJugada
+4 4 3 2 1
+agregarEnPartida
+
+crearJugada
+5 4 2 1 3
+agregarEnPartida
+
+imprimirPartida
+
+removerDePartida 4
+
+imprimirPartida
+
+removerDePartida 1
+
+imprimirPartida
+
+removerDePartida 3
+
+imprimirPartida 
+
+liberarPartida
+
+Fin

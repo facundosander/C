@@ -1,0 +1,50 @@
+1>2>#  se crean 10 jugadas para ingresarlos a una partida.
+3>4>5>6>7>8>9>10>11>12>13>14>15>16>17>18>19>20>21>22>23>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Abajo Izquierda Derecha Arriba 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+Jugada: 7 
+Movimientos: Izquierda Izquierda Derecha Derecha 
+Jugada: 8 
+Movimientos: Abajo Abajo Izquierda Arriba 
+Jugada: 9 
+Movimientos: Izquierda Izquierda Derecha Abajo 
+Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+24>La jugada con numero 9 se removió de la partida.
+25>La jugada con numero 8 se removió de la partida.
+26>La jugada con numero 3 se removió de la partida.
+27>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Abajo Izquierda Derecha Arriba 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+Jugada: 7 
+Movimientos: Izquierda Izquierda Derecha Derecha 
+Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+28>La jugada con numero 3 NO está en la partida.
+29>La jugada con numero 10 está en la partida.
+30>Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+31>#  jugadas en pos "1" con el movimiento "1".
+32>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+33>34>Fin.

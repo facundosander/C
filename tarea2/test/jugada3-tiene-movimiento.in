@@ -1,0 +1,18 @@
+crearJugada
+3 2 2 3 3
+
+tieneMovimientoEnPosTJugada
+1 1
+
+tieneMovimientoEnPosTJugada
+1 2
+
+tieneMovimientoEnPosTJugada
+3 3
+
+tieneMovimientoEnPosTJugada
+3 2
+
+liberarJugada
+
+Fin

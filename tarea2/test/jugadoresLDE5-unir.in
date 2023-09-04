@@ -1,0 +1,80 @@
+crearListaJugadores
+
+# --- Creamos ListaLDE de 4 jugadores ---
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 10 21 Uruguay Juan
+crearFecha 1/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugada
+2 2 2 3 4
+agregarEnPartida
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugada
+4 3 3 2 2
+agregarEnPartida
+crearJugador 8 21 Argentina Andres
+crearFecha 5/1/2023
+insertarJugadorListaJugadores
+
+# ------ fin crear ListaJugadoresLDE --------
+
+imprimirCantidadListaJugadores
+imprimirMayorAMenorTJugadoresLDE
+
+
+# ------ Union con lista vacía ------
+unirConVacioListaJugadores
+
+# Imprimimos cantidad Jugadores
+imprimirCantidadListaJugadores
+
+# Imprimimos Jugadores ordenados
+imprimirMenorAMayorTJugadoresLDE
+
+
+# ------ Union con lista NO vacía ------
+# crearYUnirListaJugadores
+
+# Luego de UNIR con ListaJugadores NO vacía
+# Imprimimos cantidad Jugadores
+# imprimirCantidadListaJugadores
+
+# Imprimimos Jugadores ordenados
+# imprimirMenorAMayorTJugadoresLDE
+
+
+liberarListaJugadores
+
+Fin

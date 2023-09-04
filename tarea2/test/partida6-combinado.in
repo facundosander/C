@@ -1,0 +1,64 @@
+crearPartida
+
+# se crean 10 jugadas para ingresarlos a una partida
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+
+crearJugada
+2 1 1 2 2
+agregarEnPartida
+
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+
+crearJugada
+4 4 3 2 1
+agregarEnPartida
+
+crearJugada
+5 4 2 1 3
+agregarEnPartida
+
+crearJugada
+6 1 1 3 3
+agregarEnPartida
+
+crearJugada
+7 2 2 1 1
+agregarEnPartida
+
+crearJugada
+8 4 4 2 3
+agregarEnPartida
+
+crearJugada
+9 2 2 1 4
+agregarEnPartida
+
+crearJugada
+10 3 1 4 2
+agregarEnPartida
+
+imprimirPartida
+
+removerDePartida 9
+removerDePartida 8
+removerDePartida 3
+
+imprimirCopiaPartida
+
+estaEnPartida 3
+estaEnPartida 10
+
+obtenerDePartida 10
+
+# jugadas en pos "1" con el movimiento "1"
+imprimirJugadasConMovimiento 
+1 1
+
+liberarPartida
+
+Fin

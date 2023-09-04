@@ -1,0 +1,92 @@
+crearArbolJugadores
+
+# -- Primer jugador Juan 1 --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+# arbol con 1 elemento
+maxIdJugadorArbolJugadores
+
+# -- Segundo jugador Roberto 5 --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+insertarJugadorArbolJugadores
+
+# -- Tercer jugador Luis 7 --
+crearJugada
+1 2 2 2 2
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+insertarJugadorArbolJugadores
+
+# arbol con 3 elementos - maxId 7
+maxIdJugadorArbolJugadores
+
+# -- Cuarto jugador Andres 8 --
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugador 8 19 Uruguay Andres
+insertarJugadorArbolJugadores
+
+# -- Quinto jugador Emilia 2 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 2 21 Uruguay Emmilia
+insertarJugadorArbolJugadores
+
+# -- Sexto jugador Ines 10 --
+crearJugada
+1 2 2 3 3
+agregarEnPartida
+crearJugador 10 21 Uruguay Ines
+insertarJugadorArbolJugadores
+
+# -- Septimo jugador Isabel 3 --
+crearJugada
+1 4 4 4 4
+agregarEnPartida
+crearJugador 3 26 Uruguay Isabel
+insertarJugadorArbolJugadores
+
+# arbol con 7 elementos - maxId 10
+maxIdJugadorArbolJugadores
+
+# arbol con 7 elementos
+imprimirArbolJugadores
+
+# remuevo la persona 3
+removerArbolJugadores 3
+
+imprimirArbolJugadores
+
+# remuevo la persona 2
+removerArbolJugadores 2
+
+imprimirArbolJugadores
+
+# remuevo la persona 10
+removerArbolJugadores 10
+
+# arbol con 4 elementos - maxId 8
+maxIdJugadorArbolJugadores
+
+# -- Quinto jugador Augusto 30 --
+crearJugada
+1 2 2 3 4
+agregarEnPartida
+crearJugador 30 26 Uruguay Augusto
+insertarJugadorArbolJugadores
+
+imprimirCantidadArbolJugadores
+imprimirArbolJugadores
+
+liberarArbolJugadores
+
+Fin

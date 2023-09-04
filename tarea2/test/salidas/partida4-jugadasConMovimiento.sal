@@ -1,0 +1,20 @@
+1>2>#  creo cuatro jugadas para ingresarlos a una partida.
+3>4>5>6>7>8>9>10>11>12>13>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Derecha Arriba Arriba Derecha 
+14>#  No hay jugadas en pos "3" con el movimiento mov "1".
+15>16>#  Hay 3 jugadas en pos "1" con el movimiento "1".
+17>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 5 
+Movimientos: Derecha Arriba Arriba Derecha 
+18>19>Fin.

@@ -1,0 +1,94 @@
+crearArbolJugadores
+
+imprimirCantidadArbolJugadores
+
+imprimirArbolJugadores
+
+# -- Primer jugador Juan 1 --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+imprimirArbolJugadores
+
+# -- Segundo jugador Roberto 5 --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugada
+2 2 2 3 4
+agregarEnPartida
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+insertarJugadorArbolJugadores
+
+imprimirCantidadArbolJugadores
+imprimirArbolJugadores
+
+# -- Tercer jugador Luis 7 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+insertarJugadorArbolJugadores
+
+imprimirCantidadArbolJugadores
+imprimirArbolJugadores
+
+
+# -- Cuarto jugador Andres 8 --
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 1 1 3 3
+agregarEnPartida
+crearJugador 8 19 Uruguay Andres
+insertarJugadorArbolJugadores
+
+
+# -- Quinto jugador Emilia 2 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 2 21 Uruguay Emmilia
+insertarJugadorArbolJugadores
+
+
+# -- Sexto jugador Ines 10 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2
+agregarEnPartida
+crearJugador 10 21 Uruguay Ines
+insertarJugadorArbolJugadores
+
+
+# -- Septimo jugador Isabel 3 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 3 26 Uruguay Isabel
+insertarJugadorArbolJugadores
+
+
+imprimirArbolJugadores
+
+liberarArbolJugadores
+
+Fin

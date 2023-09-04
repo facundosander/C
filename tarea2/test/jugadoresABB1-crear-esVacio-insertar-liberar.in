@@ -1,0 +1,50 @@
+crearArbolJugadores
+
+esVacioArbolJugadores
+
+liberarArbolJugadores
+
+crearArbolJugadores
+
+# -- Primer jugador Juan --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+esVacioArbolJugadores
+
+# -- Segundo jugador Roberto --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugada
+2 2 2 3 4
+agregarEnPartida
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+insertarJugadorArbolJugadores
+
+esVacioArbolJugadores
+
+# -- Tercer jugador Luis --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+insertarJugadorArbolJugadores
+
+esVacioArbolJugadores
+
+liberarArbolJugadores
+
+Fin

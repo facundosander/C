@@ -1,0 +1,40 @@
+crearPartida
+
+# creo cuatro jugadas para ingresarlas a una partida
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+
+crearJugada
+2 2 2 3 3
+agregarEnPartida
+
+crearJugada
+3 1 3 2 4
+agregarEnPartida
+
+crearJugada
+4 4 3 2 1
+agregarEnPartida
+
+# Creamos jugador
+crearJugador 5 20 Uruguay Luis
+
+imprimirPartidaJugador
+
+# Agregamos jugada 5
+crearJugada
+5 1 1 1 1
+agregarJugadaJugador
+
+imprimirPartidaJugador
+
+# Borramos jugada 1
+removerJugadaJugador 1
+
+imprimirPartidaJugador
+
+liberarJugador
+
+Fin

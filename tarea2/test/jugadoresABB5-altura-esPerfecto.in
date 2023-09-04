@@ -1,0 +1,112 @@
+crearArbolJugadores
+
+# arbol con 0 elementos - altura 0
+alturaArbolJugadores
+
+# arbol es perfecto
+esPerfectoArbolJugadores
+
+# -- Primer jugador Juan 5 --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 5 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+# arbol con 1 elemento - altura 1
+alturaArbolJugadores
+
+# arbol es perfecto
+esPerfectoArbolJugadores
+
+# -- Segundo jugador Roberto 10 --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 10 19 Brasil Roberto
+insertarJugadorArbolJugadores
+
+# arbol con 2 elementos - altura 2
+alturaArbolJugadores
+
+# arbol no es perfecto
+esPerfectoArbolJugadores
+
+# -- Tercer jugador Luis 2 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 2 21 Uruguay Luis
+insertarJugadorArbolJugadores
+
+
+# arbol con 3 elementos - altura 2
+alturaArbolJugadores
+
+# arbol es perfecto
+esPerfectoArbolJugadores
+
+# -- Cuarto jugador Andres 20 --
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugador 20 19 Uruguay Andres
+insertarJugadorArbolJugadores
+
+# -- Quinto jugador Emilia 7 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 21 Uruguay Emmilia
+insertarJugadorArbolJugadores
+
+
+# subarboles con alturas distintas
+# arbol no es perfecto
+esPerfectoArbolJugadores
+
+# -- Sexto jugador Ines 3 --
+crearJugada
+1 2 2 3 3
+agregarEnPartida
+crearJugador 3 21 Uruguay Ines
+insertarJugadorArbolJugadores
+
+# -- Septimo jugador Isabel 1 --
+crearJugada
+1 4 4 4 4
+agregarEnPartida
+crearJugador 1 26 Uruguay Isabel
+insertarJugadorArbolJugadores
+
+# arbol con 7 elementos - altura 3
+alturaArbolJugadores
+
+# arbol es perfecto
+esPerfectoArbolJugadores
+
+# remuevo la persona 20 - altura 3
+removerArbolJugadores 20
+alturaArbolJugadores
+
+# arbol no es perfecto
+esPerfectoArbolJugadores
+
+# remuevo la persona 5
+removerArbolJugadores 5
+
+# remuevo la persona 2
+removerArbolJugadores 2
+
+# arbol con 4 elementos - altura 3
+alturaArbolJugadores
+
+# remuevo la persona 7
+removerArbolJugadores 7
+
+alturaArbolJugadores
+esPerfectoArbolJugadores
+
+liberarArbolJugadores
+
+Fin

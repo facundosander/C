@@ -1,0 +1,93 @@
+crearListaJugadores
+
+# --- Creamos ListaLDE de 4 jugadores ---
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 6 21 Uruguay Juan
+crearFecha 1/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugada
+2 2 2 3 4
+agregarEnPartida
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugada
+4 3 3 2 2
+agregarEnPartida
+crearJugador 8 21 Argentina Andres
+crearFecha 6/1/2023
+insertarJugadorListaJugadores
+
+# --- Fin creacion ListaLDE de jugadores (5 - 8) ---
+
+imprimirCantidadListaJugadores
+imprimirMenorAMayorTJugadoresLDE
+
+estaEnListaJugadores 3
+estaEnListaJugadores 5
+estaEnListaJugadores 6
+estaEnListaJugadores 0
+
+imprimirJugadorListaJugadores 7
+
+unirConVacioListaJugadores
+
+eliminarInicioListaJugadores
+
+imprimirCantidadListaJugadores
+imprimirMenorAMayorTJugadoresLDE
+
+eliminarFinalListaJugadores
+
+estaEnListaJugadores 6
+
+imprimirJugadorListaJugadores 5
+
+imprimirCantidadListaJugadores
+imprimirMayorAMenorTJugadoresLDE
+
+eliminarFinalListaPersonas
+eliminarFinalListaPersonas
+
+# La lista queda vacía
+
+imprimirCantidadListaJugadores
+imprimirMayorAMenorTJugadoresLDE
+
+crearYUnirListaJugadores
+
+imprimirMayorAMenorTJugadoresLDE
+imprimirCantidadListaJugadores
+
+liberarListaJugadores
+
+Fin

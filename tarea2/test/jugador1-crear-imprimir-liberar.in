@@ -1,0 +1,33 @@
+crearPartida
+
+# creo cinco jugadas para ingresarlas a una partida
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+
+crearJugada
+2 1 1 2 2
+agregarEnPartida
+
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+
+crearJugada
+4 4 3 2 1
+agregarEnPartida
+
+crearJugada
+5 3 3 2 1
+agregarEnPartida
+
+crearJugador 1 21 Uruguay Juan
+
+# imprimir Jugador
+imprimirJugador
+
+# liberar Jugador
+liberarJugador
+
+Fin

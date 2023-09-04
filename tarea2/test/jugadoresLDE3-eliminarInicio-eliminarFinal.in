@@ -1,0 +1,85 @@
+crearListaJugadores
+
+# Creamos ListaLDE de 3 jugadores
+
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugada
+2 2 2 3 4
+agregarEnPartida
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 19 Brasil Roberto
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Luis
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+
+crearJugada
+2 2 2 2 2 
+agregarEnPartida
+crearJugada
+3 2 3 4 4
+agregarEnPartida
+crearJugada
+4 3 3 2 2
+agregarEnPartida
+crearJugador 8 21 Argentina Andres
+crearFecha 5/1/2023
+insertarJugadorListaJugadores
+
+
+# Imprimir cantidad de jugadores
+imprimirCantidadListaJugadores
+
+# Imprimir lista completa
+imprimirMayorAMenorTJugadoresLDE
+
+# elimino el inicio, es decir Andres
+eliminarInicioListaJugadores
+
+# lista sin el jugador Andres
+imprimirMayorAMenorTJugadoresLDE
+
+# elimino el final, es decir Roberto
+eliminarFinalListaJugadores
+
+# debe quedar solo 1 jugador en la LDE
+imprimirCantidadListaJugadores
+
+# debe quedar solo la persona Luis en la lista
+imprimirMayorAMenorTJugadoresLDE
+
+# elimino el inicio, la lista queda vacia
+eliminarInicioListaJugadores
+
+# no se debe imprimir nada
+imprimirMayorAMenorTJugadoresLDE
+
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugador 10 17 Uruguay Pedro
+crearFecha 5/1/2023
+insertarJugadorListaJugadores
+
+# ahora debe haber solo 1 solo jugador en la Lista
+imprimirMayorAMenorTJugadoresLDE
+
+liberarListaJugadores
+
+Fin

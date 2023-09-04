@@ -1,0 +1,22 @@
+1>2>#  Partida vacia.
+3>La partida esta vacia.
+4>#  creo cuatro jugadas para ingresarlas a la partida.
+5>6>7>8>9>10>11>12>13>Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 4 
+Movimientos: Derecha Arriba Arriba Abajo 
+14>#  caso de partida NO vacia.
+15>La partida NO esta vacia.
+16>Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 4 
+Movimientos: Derecha Arriba Arriba Abajo 
+17>18>Fin.
