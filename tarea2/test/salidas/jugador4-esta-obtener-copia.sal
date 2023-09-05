@@ -1,0 +1,18 @@
+1>2>#  creo cuatro jugadas para ingresarlas a una partida.
+3>4>5>6>7>8>9>10>11>#  Creamos jugador.
+12>13>La jugada con id 4 está en la partida de la jugador.
+14>La jugada con id 1 está en la partida de la jugador.
+15>#  obtenerDePartidaDeTJugador.
+16>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+17>La jugada con id 6 NO está en la partida de la jugador.
+18>Jugador 6:  Jose, Uruguay, 22 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Arriba 
+Jugada: 3 
+Movimientos: Derecha Arriba Izquierda Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+19>20>Fin.

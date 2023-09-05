@@ -1,0 +1,31 @@
+1>2>#  creo cuatro jugadas para ingresarlas a una partida.
+3>4>5>6>7>8>9>10>11>#  Creamos jugador.
+12>13>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Arriba 
+Jugada: 3 
+Movimientos: Derecha Arriba Izquierda Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+14>#  Agregamos jugada 5.
+15>16>17>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Arriba 
+Jugada: 3 
+Movimientos: Derecha Arriba Izquierda Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Derecha Derecha Derecha Derecha 
+18>#  Borramos jugada 1.
+19>20>Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Arriba 
+Jugada: 3 
+Movimientos: Derecha Arriba Izquierda Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Derecha Derecha Derecha Derecha 
+21>22>Fin.

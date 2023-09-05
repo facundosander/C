@@ -1,0 +1,15 @@
+1>2>#  creo cinco jugadas para ingresarlas a una partida.
+3>4>5>6>7>8>9>10>11>12>13>14>#  imprimir Jugador.
+15>Jugador 1:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Arriba Arriba Izquierda Derecha 
+16>#  liberar Jugador.
+17>18>Fin.
