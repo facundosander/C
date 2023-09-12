@@ -161,44 +161,32 @@ bool esPerfectoTJugadoresABB(TJugadoresABB jugadoresABB) {
 }
 
 TJugadoresABB mayoresTJugadoresABB(TJugadoresABB jugadoresABB, nat edad) {
-    TJugadoresABB result;
     if (jugadoresABB == NULL)
         return NULL;
 
     TJugadoresABB fizq = mayoresTJugadoresABB(jugadoresABB->izq, edad);
     TJugadoresABB fder = mayoresTJugadoresABB(jugadoresABB->der, edad);
 
-    TJugador raiz = jugadoresABB->jugador;
-
-    if (edadTJugador(raiz) > edad) {
-        result = new rep_jugadoresABB;
-        result->jugador = copiarTJugador(raiz);
+    if (edadTJugador(jugadoresABB->jugador) > edad) {
+        TJugadoresABB result = new rep_jugadoresABB;
+        result->jugador = copiarTJugador(jugadoresABB->jugador);
         result->izq = fizq;
         result->der = fder;
-    } else if (fizq == NULL)
-    {
-        result = fder;
-    } else if (fder == NULL)
-    {
-        result = fizq;
-    }
-    else
-    {
-        TJugador mayor =copiarTJugador(maxIdJugador(jugadoresABB->izq));
-        result = new rep_jugadoresABB;
-        result->jugador = mayor;
+        return result;
+    } 
+    else if (fizq == NULL) {
+        return fder;
+    } 
+    else if (fder == NULL) {
+        return fizq;
+    } 
+    else {
+        TJugadoresABB result = new rep_jugadoresABB;
+        TJugador tempJugador = copiarTJugador(maxIdJugador(fizq));
+        result->jugador = tempJugador;
         result->izq = fizq;
         result->der = fder;
-        TJugadoresABB aux = fizq;
-        while (aux->der != NULL) {
-            aux = aux->der;
-        }
-        TJugadoresABB aBorrar = aux;
-        aux = aux->izq;
-        liberarNodo(aBorrar);
-
+        removerTJugadoresABB(result->izq, idTJugador(tempJugador));
+        return result;
     }
-    
-    return result;
-    
 }
