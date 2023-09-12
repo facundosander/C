@@ -6,21 +6,20 @@ struct rep_partida {
 };
 
 TPartida crearTPartida(){
-    TPartida nuevaPartida = NULL;
-    nuevaPartida = new rep_partida;
-    nuevaPartida->sig = NULL;
-    nuevaPartida->jugada = NULL;
-    return nuevaPartida;
+    return NULL;
 }
 
 void agregarEnTPartida(TPartida& partida, TJugada jugada){
-    if (partida->jugada == NULL) {
+    if (partida == NULL) {
+        partida = new rep_partida;
+        partida->sig = NULL;
         partida->jugada = jugada;
     }
     else{
         if (numeroTJugada(partida->jugada) > numeroTJugada(jugada))
         {
-            TPartida nuevoNodo = crearTPartida();
+            TPartida nuevoNodo = NULL;
+            nuevoNodo = new rep_partida;
             nuevoNodo->jugada = jugada;
             nuevoNodo->sig = partida;
             partida = nuevoNodo;
@@ -31,7 +30,8 @@ void agregarEnTPartida(TPartida& partida, TJugada jugada){
         {
             aux = aux->sig;
         }
-        TPartida nuevoNodo = crearTPartida();
+        TPartida nuevoNodo = NULL;
+        nuevoNodo = new rep_partida;
         nuevoNodo->jugada = jugada;
         nuevoNodo->sig = aux->sig;
         aux->sig = nuevoNodo;
@@ -63,7 +63,7 @@ void liberarTPartida(TPartida& partida){
 
 bool esVaciaTPartida(TPartida partida){
     bool res = false;
-    if ( partida->jugada == NULL )
+    if ( partida == NULL )
     {
         res = true;
     }
@@ -71,7 +71,7 @@ bool esVaciaTPartida(TPartida partida){
 }
 
 TPartida copiarTPartida(TPartida partida){
-    TPartida copiaTPartida = crearTPartida();
+    TPartida copiaTPartida = NULL;
     TPartida aux = partida;
     while (aux!=NULL)
     {

@@ -11,6 +11,7 @@ struct rep_jugadoresNodo {
 struct rep_jugadoresLDE {
     rep_jugadoresNodo * ini;
     rep_jugadoresNodo * fin;
+    nat cantidad;
 };
 
 TJugadoresLDE crearTJugadoresLDE(){
@@ -18,6 +19,7 @@ TJugadoresLDE crearTJugadoresLDE(){
     nuevoTJugadoresLDE = new rep_jugadoresLDE;
     nuevoTJugadoresLDE->ini = NULL;
     nuevoTJugadoresLDE->fin = NULL;
+    nuevoTJugadoresLDE->cantidad = 0;
     return nuevoTJugadoresLDE;
 }
 
@@ -40,7 +42,7 @@ void insertarTJugadoresLDE(TJugadoresLDE &jugadores, TJugador &jugador, TFecha &
     }
     else
     {
-        if (compararTFechas(jugadores->ini->fecha,fecha) == 1)
+        if (compararTFechas(jugadores->ini->fecha,fecha) != 1)
         {
             nuevoNodo->sig = jugadores->ini;
             jugadores->ini->prev = nuevoNodo;
@@ -49,11 +51,11 @@ void insertarTJugadoresLDE(TJugadoresLDE &jugadores, TJugador &jugador, TFecha &
         else
         {
             TJugadoresNodo aux = jugadores->ini;
-            while (aux->sig != NULL && compararTFechas(aux->sig->fecha, fecha) != 1)
+            while (aux->sig != NULL && compararTFechas(aux->sig->fecha, fecha) != -1)
             {
                 aux = aux->sig;
             }
-            if (aux->sig == NULL && compararTFechas(aux->fecha, fecha) != 1)
+            if (aux->sig == NULL && compararTFechas(aux->fecha, fecha) != -1)
             {
                 aux->sig = nuevoNodo;
                 nuevoNodo->prev = aux;
@@ -69,14 +71,14 @@ void insertarTJugadoresLDE(TJugadoresLDE &jugadores, TJugador &jugador, TFecha &
         }
     }
     
-    
+    jugadores->cantidad++;
 }
 
 void liberarTJugadoresNodo(TJugadoresNodo &JugadoresNodo){
     liberarTFecha(JugadoresNodo->fecha);
     liberarTJugador(JugadoresNodo->jugador);
     delete JugadoresNodo;
-    JugadoresNodo == NULL;
+    JugadoresNodo = NULL;
 }
 
 void liberarTJugadoresLDE(TJugadoresLDE &jugadoresLDE){
@@ -91,45 +93,170 @@ void liberarTJugadoresLDE(TJugadoresLDE &jugadoresLDE){
 }
 
 void imprimirMayorAMenorTJugadoresLDE(TJugadoresLDE jugadores){
+    TJugadoresNodo aux = jugadores->ini;
+    while (aux != NULL)
+    {
+        imprimirTJugador(aux->jugador);
+        imprimirTFecha(aux->fecha);
+        aux = aux->sig;
+    }
+    
+}
+
+void imprimirMenorAMayorTJugadoresLDE(TJugadoresLDE jugadores){
     TJugadoresNodo aux = jugadores->fin;
     while (aux != NULL)
     {
         imprimirTJugador(aux->jugador);
+        imprimirTFecha(aux->fecha);
         aux = aux->prev;
     }
     
     
 }
 
-void imprimirMenorAMayorTJugadoresLDE(TJugadoresLDE jugadores){
-}
-
 nat cantidadTJugadoresLDE(TJugadoresLDE jugadores){
-    return 0;
+    return jugadores->cantidad;
 }
 
 void eliminarInicioTJugadoresLDE(TJugadoresLDE &jugadores){
+    if (jugadores != NULL)
+    {
+        TJugadoresNodo nodoborrar = jugadores->ini;
+        jugadores->ini = jugadores->ini->sig;
+        liberarTJugadoresNodo(nodoborrar);
+        jugadores->cantidad--;
+        if (jugadores->ini != NULL)
+        {
+            jugadores->ini->prev = NULL;
+        } else
+        {
+            jugadores->fin = NULL;
+        }
+        
+        
+    }
+    
 }
 
 void eliminarFinalTJugadoresLDE(TJugadoresLDE &jugadores){
+        if (jugadores != NULL)
+    {
+        TJugadoresNodo nodoborrar = jugadores->fin;
+        jugadores->fin = jugadores->fin->prev;
+        liberarTJugadoresNodo(nodoborrar);
+        jugadores->cantidad--;
+        if (jugadores->fin != NULL)
+        {
+            jugadores->fin->sig = NULL;
+        }else
+        {
+            jugadores->ini = NULL;
+        }
+        
+        
+    }
 }
 
 bool estaEnTJugadoresLDE(TJugadoresLDE jugadores, nat id){ 
+    if (jugadores != NULL)
+    {
+        TJugadoresNodo aux = jugadores->ini;
+        while (aux != NULL)
+        {
+            if (idTJugador(aux->jugador) == id)
+            {
+                return true;
+            }
+            aux = aux->sig;
+        }
+        
+    }
     return false;
 }
 
 TJugador obtenerTJugadorDeTJugadoresLDE(TJugadoresLDE jugadores, nat id){
+    if (jugadores != NULL)
+    {
+        TJugadoresNodo aux = jugadores->ini;
+        while (aux != NULL)
+        {
+            if (idTJugador(aux->jugador) == id)
+            {
+                return aux->jugador;
+            }
+            aux = aux->sig;
+        }
+        
+    }
     return NULL;
 }
 
+
 TFecha obtenerTFechaDeTJugadoresLDE(TJugadoresLDE jugadores, nat id){
+    if (jugadores != NULL)
+    {
+        TJugadoresNodo aux = jugadores->ini;
+        while (aux != NULL)
+        {
+            if (idTJugador(aux->jugador) == id)
+            {
+                return aux->fecha;
+            }
+            aux = aux->sig;
+        }
+        
+    }
     return NULL;
 }
 
 TJugadoresLDE obtenerSegunTFecha(TJugadoresLDE jugadores, TFecha fecha){
-    return NULL;
+    TJugadoresLDE nuevaLista = NULL;
+    if (jugadores != NULL)
+    {
+        TJugadoresNodo aux = jugadores->ini;
+        while (aux != NULL)
+        {
+            if (compararTFechas(aux->fecha, fecha) == 0)
+            {
+                TJugador nuevoJugador = copiarTJugador(aux->jugador);
+                TFecha nuevaFecha = copiarTFecha(aux->fecha);
+                insertarTJugadoresLDE(nuevaLista, nuevoJugador, nuevaFecha);
+            }
+            aux = aux->sig;
+        }
+        
+    }
+    return nuevaLista;
 }
 
 TJugadoresLDE unirTJugadoresLDE(TJugadoresLDE &jugadores1, TJugadoresLDE &jugadores2){
-    return NULL;
+    TJugadoresLDE nuevaLista = crearTJugadoresLDE();
+    if (jugadores1 != NULL)
+    {
+        TJugadoresNodo aux = jugadores1->ini;
+        while (aux != NULL)
+        {
+            TJugador nuevoJugador = copiarTJugador(aux->jugador);
+            TFecha nuevaFecha = copiarTFecha(aux->fecha);
+            insertarTJugadoresLDE(nuevaLista, nuevoJugador, nuevaFecha);
+            aux = aux->sig;
+        }
+        
+    }
+    if (jugadores2 != NULL)
+    {
+        TJugadoresNodo aux = jugadores2->ini;
+        while (aux != NULL)
+        {
+            TJugador nuevoJugador = copiarTJugador(aux->jugador);
+            TFecha nuevaFecha = copiarTFecha(aux->fecha);
+            insertarTJugadoresLDE(nuevaLista, nuevoJugador, nuevaFecha);
+            aux = aux->sig;
+        }
+        
+    }
+    liberarTJugadoresLDE(jugadores1);
+    liberarTJugadoresLDE(jugadores2);
+    return nuevaLista;
 }
