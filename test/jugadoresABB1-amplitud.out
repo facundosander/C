@@ -1,0 +1,12 @@
+1>2>#  Construyo arbol .
+3>#  -- Primer jugador Juan 1 --.
+4>5>6>7>8>El árbol de jugadores NO está vacío.
+9>#  -- Segundo jugador Roberto 5 --.
+10>11>12>13>14>#  -- Tercer jugador Luis 7 --.
+15>16>17>18>19>#  -- Cuarto jugador Andres 8 --.
+20>21>22>23>24>#  -- Quinto jugador Emilia 2 --.
+25>26>27>28>29>#  -- Sexto jugador Ines 10 --.
+30>31>32>33>34>#  -- Septimo jugador Isabel 3 --.
+35>36>37>38>39>#  La maxima amplitud es 2.
+40>La amplitud del árbol es: 2.
+41>42>Fin.

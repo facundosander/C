@@ -1,0 +1,29 @@
+# crea un conjunto con rango 1..10
+crearConjunto 10
+
+# imprime el conjunto vacio, esto es, una linea vacia
+imprimirConjunto
+
+insertarConjunto 3
+# imprime un conjunto con 3 como unico elemento
+imprimirConjunto
+
+insertarConjunto 5
+insertarConjunto 7
+# imprime conjunto con 3 elementos
+imprimirConjunto
+
+insertarConjunto 1
+insertarConjunto 10
+# imprimir conjunto con casos borde
+imprimirConjunto
+
+# intenta insertar elementos fuera de rango
+insertarConjunto 0
+insertarConjunto 15
+# imprime el conjunto sin modificaciones
+imprimirConjunto
+
+# libera el conjunto
+liberarConjunto
+Fin

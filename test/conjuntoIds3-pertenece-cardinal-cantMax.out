@@ -1,0 +1,24 @@
+1>#  crea un conjunto con rango 1..10.
+2>3>#  verifica cantidad máxima del conjunto (10).
+4>La cantidad máxima del conjunto es: 10.
+5>#  inserta 7 elementos.
+6>7>8>9>10>11>12>13>#  imprime el conjunto.
+14>1 2 3 5 6 7 9 
+15>#  verifica dos elementos que si pertenecen.
+16>El elemento 3 pertenece al conjunto.
+17>El elemento 7 pertenece al conjunto.
+18>#  verifica dos elementos que no pertenecen y estan en el rango.
+19>El elemento 4 no pertenece al conjunto.
+20>El elemento 8 no pertenece al conjunto.
+21>#  verifica dos elementos que no pertenecen y no estan en el rango.
+22>El elemento 0 no pertenece al conjunto.
+23>El elemento 11 no pertenece al conjunto.
+24>#  imprime el cardinal del conjunto .
+25>El cardinal del conjunto es: 7.
+26>#  borra dos elementos e imprime el cardinal.
+27>28>29>El cardinal del conjunto es: 5.
+30>#  verifica que los elementos borrados no esten mas .
+31>El elemento 1 no pertenece al conjunto.
+32>El elemento 5 no pertenece al conjunto.
+33>#  libera el conjunto .
+34>35>Fin.

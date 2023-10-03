@@ -1,0 +1,37 @@
+crearPilaJugadores
+
+imprimirCantidadPila
+
+# Construyo Pila
+
+# -- Primer jugador jugador1 20 --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 20 21 Uruguay jugador1
+
+apilarPilaJugadores
+liberarJugador
+
+# -- Segundo jugador jugador2 2 --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 2 19 Brasil jugador2
+
+apilarPilaJugadores
+liberarJugador
+
+# -- Tercer jugador jugador3 7 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 21 Uruguay jugador3
+
+apilarPilaJugadores
+liberarJugador
+
+# Transformo lista en arbol
+deserializarArbolJugadores
+
+Fin

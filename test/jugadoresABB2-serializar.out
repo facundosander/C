@@ -1,0 +1,25 @@
+1>2>#  Construyo arbol .
+3>#  -- Primer jugador Juan 7 --.
+4>5>6>7>8>#  -- Segundo jugador Roberto 20 --.
+9>10>11>12>13>#  -- Tercer jugador Luis 2 --.
+14>15>16>17>18>#  imprimo arbol.
+19>Jugador 2:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugador 7:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugador 20:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+20>#  Transformo arbol en lista.
+21>Jugador 7:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugador 2:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugador 20:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+22>23>Fin.

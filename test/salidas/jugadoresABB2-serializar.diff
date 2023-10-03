@@ -1,0 +1,25 @@
+16c16
+< 21>Jugador 7:  Juan, Uruguay, 21 años
+---
+> 21>Jugador 20:  Roberto, Brasil, 19 años
+18c18
+< Movimientos: Derecha Izquierda Arriba Abajo 
+---
+> Movimientos: Abajo Arriba Izquierda Derecha 
+22c22
+< Jugador 20:  Roberto, Brasil, 19 años
+---
+> Jugador 7:  Juan, Uruguay, 21 años
+24c24
+< Movimientos: Abajo Arriba Izquierda Derecha 
+---
+> Movimientos: Derecha Izquierda Arriba Abajo 
+25a26,33
+> ==32568== 756 (648 direct, 108 indirect) bytes in 3 blocks are definitely lost in loss record 3 of 3
+> ==32568==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==32568==    by 0x10E627: crearTJugador(unsigned int, unsigned int, char const*, char const*, rep_partida*) (jugador.cpp:13)
+> ==32568==    by 0x10E8A8: copiarTJugador(rep_jugador*) (jugador.cpp:71)
+> ==32568==    by 0x10FF6B: serializarTJugadoresABB(rep_jugadoresABB*) (jugadoresABB.cpp:248)
+> ==32568==    by 0x10CFAA: main_serializarArbolJugadores(rep_jugadoresABB*) (principal.cpp:1208)
+> ==32568==    by 0x10A323: main (principal.cpp:453)
+> ==32568== 

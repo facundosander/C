@@ -1,0 +1,31 @@
+1>2>#  Crear lista de jugadores: Luis, Roberto, Juan, Pedro.
+3>4>5>6>7>8>9>10>11>12>13>14>15>16>17>18>19>20>21>22>23>#  imprimir contenido lista LDE.
+24>Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+1/1/2023
+Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+5/12/2022
+Jugador 1:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+1/12/2022
+Jugador 2:  Pedro, Uruguay, 7 años
+Jugada: 1 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+30/11/2022
+25>#  imprimir inicio lista: Luis.
+26>Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+27>28>#  imprimir inicio lista: Roberto.
+29>Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+30>31>#  imprimir inicio lista: Roberto.
+32>Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+33>34>Fin.

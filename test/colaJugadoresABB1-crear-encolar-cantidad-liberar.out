@@ -1,0 +1,15 @@
+1>2>#  imprimo la cantidad de elementos de la cola, que debe ser 0.
+3>La cantidad de arboles de jugadores en la cola es: 0.
+4>#  Creo arbol con Jugadores 4 y 5.
+5>6>7>8>9>10>#  Encolo el arbol con Jugadores 4 y 5.
+11>12>#  imprimo la cantidad de elementos de la cola, que debe ser 1.
+13>La cantidad de arboles de jugadores en la cola es: 1.
+14>#  obtengo el frente de la cola, que es el árbol con los Jugadores 4 y 5.
+15>Jugador 4:  Juan, Uruguay, 21 años
+Jugador 5:  Maria, Argentina, 11 años
+16>#  libero la memoria asociada a la cola.
+17>18>#  imrpimo el arbol con los Jugadores 4 y 5.
+19>Jugador 4:  Juan, Uruguay, 21 años
+Jugador 5:  Maria, Argentina, 11 años
+20>#  libero el árbol.
+21>22>Fin.

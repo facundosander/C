@@ -1,0 +1,35 @@
+crearArbolJugadores
+
+# Construyo arbol 
+
+# -- Primer jugador Juan 7 --
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 7 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+# -- Segundo jugador Roberto 20 --
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 20 19 Brasil Roberto
+insertarJugadorArbolJugadores
+
+# -- Tercer jugador Luis 2 --
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 2 21 Uruguay Luis
+insertarJugadorArbolJugadores
+
+
+# imprimo arbol
+imprimirArbolJugadores
+
+# Transformo arbol en lista
+serializarArbolJugadores
+
+liberarArbolJugadores
+
+Fin

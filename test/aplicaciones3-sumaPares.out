@@ -1,0 +1,29 @@
+1>#  crea un conjunto con rango 1..10.
+2>3>#  inserta 3 elementos.
+4>5>6>7>#  imprime el conjunto.
+8>1 5 7 
+9>#  Chequea si hay un par que suma 6 (da true).
+10>Existe un par de elementos en el conjunto cuya suma es 6.
+11>#  Chequea si hay un par que suma 3 (da false).
+12>No existe un par de elementos en el conjunto cuya suma es 3.
+13>#  Chequea si hay un par que suma 8 (da true).
+14>Existe un par de elementos en el conjunto cuya suma es 8.
+15>#  Chequea si hay un par que suma 9 (da false).
+16>No existe un par de elementos en el conjunto cuya suma es 9.
+17>#  Chequea si hay un par que suma 12 (da true).
+18>Existe un par de elementos en el conjunto cuya suma es 12.
+19>#  inserta 2 elementos.
+20>21>22>#  imprime el conjunto.
+23>1 2 4 5 7 
+24>#  Chequea si hay un par que suma 3 (da true).
+25>Existe un par de elementos en el conjunto cuya suma es 3.
+26>#  Chequea si hay un par que suma 7 (da true).
+27>Existe un par de elementos en el conjunto cuya suma es 7.
+28>#  Chequea si hay un par que suma 9 (da true).
+29>Existe un par de elementos en el conjunto cuya suma es 9.
+30>#  Chequea si hay un par que suma 1 (da false).
+31>No existe un par de elementos en el conjunto cuya suma es 1.
+32>#  Chequea si hay un par que suma 10 (da false).
+33>No existe un par de elementos en el conjunto cuya suma es 10.
+34>#  libera el conjunto.
+35>36>Fin.

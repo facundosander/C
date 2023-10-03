@@ -1,0 +1,56 @@
+crearPilaJugadores
+
+imprimirCantidadPila
+
+crearJugada
+1 1 2 3 4
+crearPartida
+agregarEnPartida
+crearJugador 1 21 Uruguay Juan
+
+apilarPilaJugadores
+liberarJugador
+
+imprimirCantidadPila
+
+crearJugada
+2 2 2 2 2
+crearPartida
+agregarEnPartida
+crearJugador 7 20 Uruguay Nicolás
+
+apilarPilaJugadores
+liberarJugador
+
+imprimirCantidadPila
+
+crearJugada
+3 4 3 2 1
+crearPartida
+agregarEnPartida
+crearJugador 4 23 Uruguay Jessica
+
+apilarPilaJugadores
+liberarJugador
+
+imprimirCantidadPila
+
+obtenerCimaPila
+
+desapilar
+
+imprimirCantidadPila
+
+obtenerCimaPila
+
+desapilar
+
+imprimirCantidadPila
+
+obtenerCimaPila
+
+desapilar
+
+liberarPilaJugadores
+
+Fin

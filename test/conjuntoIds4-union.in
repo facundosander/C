@@ -1,0 +1,60 @@
+# crea un conjunto con rango 1..10
+crearConjunto 10
+# inserta 5 elementos pares
+insertarConjunto 2
+insertarConjunto 4
+insertarConjunto 6
+insertarConjunto 8
+insertarConjunto 10
+imprimirConjunto
+# crea un conjunto auxiliar con rango 1..10
+crearConjuntoAux 10
+# inserta 5 elementos impares
+insertarConjuntoAux 1
+insertarConjuntoAux 3
+insertarConjuntoAux 5
+insertarConjuntoAux 7
+insertarConjuntoAux 9
+imprimirConjuntoAux 
+# crea la union entre los conjuntos, la imprime y la libera 
+unionConjunto
+# libera los dos conjuntos
+liberarConjunto
+liberarConjuntoAux
+#
+#
+#
+# crea un conjunto con rango 1..12
+crearConjunto 12
+
+# inserta 7 elementos
+insertarConjunto 1
+insertarConjunto 2
+insertarConjunto 3
+insertarConjunto 4
+insertarConjunto 5
+insertarConjunto 6
+insertarConjunto 7
+imprimirConjunto 
+
+# crea un conjunto auxiliar con rango 1..12
+crearConjuntoAux 12
+
+# inserta 7 elementos
+insertarConjuntoAux 12
+insertarConjuntoAux 11
+insertarConjuntoAux 10
+insertarConjuntoAux 9
+insertarConjuntoAux 8
+insertarConjuntoAux 7
+insertarConjuntoAux 6
+imprimirConjuntoAux 
+
+# crea la union entre los conjuntos, la imprime y la libera (en este caso hay elementos en comun)
+unionConjunto 
+
+# libera los dos conjuntos 
+liberarConjunto
+liberarConjuntoAux
+
+Fin

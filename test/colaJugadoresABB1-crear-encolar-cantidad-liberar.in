@@ -1,0 +1,33 @@
+crearCola
+
+# imprimo la cantidad de elementos de la cola, que debe ser 0
+imprimirCantidadCola
+
+# Creo arbol con Jugadores 4 y 5
+crearArbolJugadores
+
+crearJugador 5 11 Argentina Maria
+insertarJugadorArbolJugadores
+
+crearJugador 4 21 Uruguay Juan
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con Jugadores 4 y 5
+encolar
+
+# imprimo la cantidad de elementos de la cola, que debe ser 1
+imprimirCantidadCola
+
+# obtengo el frente de la cola, que es el árbol con los Jugadores 4 y 5
+obtenerFrenteCola
+
+# libero la memoria asociada a la cola
+liberarCola
+
+# imrpimo el arbol con los Jugadores 4 y 5
+imprimirArbolJugadores
+
+# libero el árbol
+liberarArbolJugadores
+
+Fin

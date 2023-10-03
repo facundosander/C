@@ -1,0 +1,39 @@
+# crea un conjunto con rango 1..10
+crearConjunto 10
+
+# verifica si el conjunto es vacío (lo es)
+esVacioConjunto
+
+# inserta 7 elementos
+insertarConjunto 1
+insertarConjunto 2
+insertarConjunto 3
+insertarConjunto 5
+insertarConjunto 6
+insertarConjunto 7
+insertarConjunto 9
+# imprime el conjunto
+imprimirConjunto
+
+# verifica si el conjunto es vacío (no lo es)
+esVacioConjunto
+
+borrarConjunto 1
+# imprime el conjunto borrando el 1
+imprimirConjunto
+
+borrarConjunto 3
+borrarConjunto 5
+borrarConjunto 7
+borrarConjunto 9
+# borra los impares e imprime solo elementos pares
+imprimirConjunto 
+
+# borra el resto de elementos e imprime el conjunto vacio 
+borrarConjunto 2
+borrarConjunto 6
+imprimirConjunto 
+
+# libera el conjunto 
+liberarConjunto  
+Fin

@@ -1,0 +1,16 @@
+1>2>La cantidad de jugadores en la pila es: 0.
+3>#  Construyo Pila.
+4>#  -- Primer jugador jugador1 20 --.
+5>6>7>8>9>10>#  -- Segundo jugador jugador2 2 --.
+11>12>13>14>15>16>#  -- Tercer jugador jugador3 7 --.
+17>18>19>20>21>22>#  Transformo lista en arbol.
+23>Jugador 2:  jugador2, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugador 7:  jugador3, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugador 20:  jugador1, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+24>Fin.

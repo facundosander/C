@@ -1,0 +1,16 @@
+1>#  crea un conjunto con rango 1..10.
+2>3>#  verifica si el conjunto es vacío (lo es).
+4>El conjunto de ids está vacío.
+5>#  inserta 7 elementos.
+6>7>8>9>10>11>12>13>#  imprime el conjunto.
+14>1 2 3 5 6 7 9 
+15>#  verifica si el conjunto es vacío (no lo es).
+16>El conjunto de ids NO está vacío.
+17>18>#  imprime el conjunto borrando el 1.
+19>2 3 5 6 7 9 
+20>21>22>23>24>#  borra los impares e imprime solo elementos pares.
+25>2 6 
+26>#  borra el resto de elementos e imprime el conjunto vacio .
+27>28>29>
+30>#  libera el conjunto .
+31>32>Fin.

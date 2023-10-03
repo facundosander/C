@@ -1,0 +1,50 @@
+# crea un conjunto con rango 1..10
+crearConjunto 10
+
+# inserta 3 elementos
+insertarConjunto 1
+insertarConjunto 5
+insertarConjunto 7
+# imprime el conjunto
+imprimirConjunto
+
+# Chequea si hay un par que suma 6 (da true)
+sumaPares 6
+
+# Chequea si hay un par que suma 3 (da false)
+sumaPares 3
+
+# Chequea si hay un par que suma 8 (da true)
+sumaPares 8
+
+# Chequea si hay un par que suma 9 (da false)
+sumaPares 9
+
+# Chequea si hay un par que suma 12 (da true)
+sumaPares 12
+
+# inserta 2 elementos
+insertarConjunto 2
+insertarConjunto 4
+# imprime el conjunto
+imprimirConjunto
+
+# Chequea si hay un par que suma 3 (da true)
+sumaPares 3
+
+# Chequea si hay un par que suma 7 (da true)
+sumaPares 7
+
+# Chequea si hay un par que suma 9 (da true)
+sumaPares 9
+
+# Chequea si hay un par que suma 1 (da false)
+sumaPares 1
+
+# Chequea si hay un par que suma 10 (da false)
+sumaPares 10
+
+# libera el conjunto
+liberarConjunto
+
+Fin

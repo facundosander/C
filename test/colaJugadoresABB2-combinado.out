@@ -1,0 +1,63 @@
+1>2>#  imprimo la cantidad de elementos en la cola, que debe ser 0.
+3>La cantidad de arboles de jugadores en la cola es: 0.
+4>#  creo un árbol de jugadores, inicialmente vacío.
+5>6>#  Encolo el arbol vacio recién creado.
+7>8>#  creo un árbol de jugadores, inicialmente vacío.
+9>10>#  creo e inserto 2 jugadores en el árbol.
+11>12>13>14>15>#  Encolo el arbol con dos jugadores.
+16>17>#  creo un árbol de jugadores, inicialmente vacío.
+18>19>#  creo e inserto 2 jugadores en el árbol.
+20>21>22>23>24>#  Encolo el arbol con dos jugadores.
+25>26>#  creo un árbol de jugadores, inicialmente vacío.
+27>28>#  creo e inserto 2 jugadores en el árbol.
+29>30>31>32>33>#  Encolo el arbol con dos jugadores.
+34>35>#  creo un árbol de jugadores, inicialmente vacío.
+36>37>#  creo e inserto 2 jugadores en el árbol.
+38>39>40>41>42>#  Encolo el arbol con dos jugadores.
+43>44>#  imprimo la cantidad de elementos en la cola, debe haber 5 elementos.
+45>La cantidad de arboles de jugadores en la cola es: 5.
+46>#  Obtengo el frente de la cola, es el árbol vacío.
+47>Arbol vacio
+48>#  Elimino de la Cola el árbol vacio.
+49>50>#  libero la memoria asociada al árbol que obtuve.
+51>52>#  imprimo la cantidad de elementos en la cola, debe haber 4 elementos.
+53>La cantidad de arboles de jugadores en la cola es: 4.
+54>#  Obtengo el frente de la cola, es un árbol con 2 jugadores (Jugadores 4 y 5).
+55>Jugador 4:  Raul, Uruguay, 55 años
+Jugador 5:  Maria, Argentina, 11 años
+56>#  Elimino de la Cola el Arbol con Jugadores 4 y 5.
+57>58>#  libero la memoria asociada al árbol que obtuve.
+59>60>#  imprimo la cantidad de elementos en la cola, debe haber 3 elementos.
+61>La cantidad de arboles de jugadores en la cola es: 3.
+62>#  Obtengo el frente de la cola.
+63>Jugador 4:  Raul, Uruguay, 55 años
+Jugador 5:  Maria, Argentina, 11 años
+64>#  Elimino de la Cola el Arbol.
+65>66>#  libero la memoria asociada al árbol que obtuve.
+67>68>#  imprimo la cantidad de elementos en la cola, debe haber 2 elementos.
+69>La cantidad de arboles de jugadores en la cola es: 2.
+70>#  Obtengo el frente de la cola.
+71>Jugador 4:  Raul, Uruguay, 55 años
+Jugador 5:  Maria, Argentina, 11 años
+72>#  Elimino de la Cola el Arbol.
+73>74>#  imprimo la cantidad de elementos en la cola, debe haber 1 elemento.
+75>La cantidad de arboles de jugadores en la cola es: 1.
+76>#  libero la memoria asociada al árbol que obtuve.
+77>78>#  Obtengo el frente de la cola.
+79>Jugador 4:  Raul, Uruguay, 55 años
+Jugador 5:  Maria, Argentina, 11 años
+80>#  Elimino de la Cola el Arbol.
+81>82>#  libero la memoria asociada al árbol que obtuve.
+83>84>#  imprimo la cantidad de elementos en la cola, debe haber 0 elementos.
+85>La cantidad de arboles de jugadores en la cola es: 0.
+86>#  libero la memoria asociada a la cola.
+87>88>89>#  Creo arbol con un jugador.
+90>91>92>93>#  Encolo el arbol con Jugador 2.
+94>95>#  imprimo la cantidad de elementos en la cola, debe haber 1 elemento.
+96>La cantidad de arboles de jugadores en la cola es: 1.
+97>#  Obtengo el frente de la Cola.
+98>Jugador 2:  Pablo, Chile, 56 años
+99>#  Elimino de la Cola el Arbol con Jugador 2.
+100>101>#  libero la memoria asociada al árbol que obtuve.
+102>103>#  libero la memoria asociada a la cola.
+104>105>Fin.

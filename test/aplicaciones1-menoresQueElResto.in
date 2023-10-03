@@ -1,0 +1,150 @@
+crearListaJugadores
+
+# creo una lista con personas y las siguientes edades: 22, 27, 25, 30, 45, 35
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 35 Uruguay Juan
+crearFecha 1/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 45 Brasil Roberto
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 1 2 3 4
+agregarEnPartida
+crearJugador 3 30 Uruguay Luis
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 3 4 4
+agregarEnPartida
+crearJugador 4 25 Uruguay Andres
+crearFecha 8/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 2 4 2 4
+agregarEnPartida
+crearJugador 2 27 Uruguay Rodrigo
+crearFecha 10/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 2 3 3 4
+agregarEnPartida
+crearJugador 7 22 Uruguay Matias
+crearFecha 2/12/2023
+insertarJugadorListaJugadores
+
+# Imprimimos de Mayor a Menor
+imprimirMayorAMenorTJugadoresLDE
+
+
+# la pila de menores es la siguiente: 35, 30, 25, 22
+menoresQueElResto
+
+liberarListaJugadores
+
+crearListaJugadores
+
+# creo una lista con personas y las siguientes edades: 10, 8, 4, 3, 1
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 1 Uruguay Emilia
+crearFecha 1/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 3 Brasil Ines
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 1 2 3 4
+agregarEnPartida
+crearJugador 3 4 Uruguay Augusto
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 3 4 4
+agregarEnPartida
+crearJugador 4 8 Uruguay Pedro
+crearFecha 2/2/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 2 4 2 4
+agregarEnPartida
+crearJugador 2 10 Uruguay Noel
+crearFecha 3/3/2023
+insertarJugadorListaJugadores
+
+# Imprimimos de Mayor a Menor
+imprimirMayorAMenorTJugadoresLDE
+
+# la pila de menores es la siguiente: 1
+menoresQueElResto
+
+liberarListaJugadores
+
+crearListaJugadores
+
+# creo una lista con personas y las siguientes edades: 1, 3, 8, 10, 20
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 1 20 Uruguay Maxi
+crearFecha 1/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 2 2 1
+agregarEnPartida
+crearJugador 5 10 Brasil Augustina
+crearFecha 5/12/2022
+insertarJugadorListaJugadores
+
+crearJugada
+3 1 2 3 4
+agregarEnPartida
+crearJugador 3 8 Uruguay Lucia
+crearFecha 1/1/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 3 3 4 4
+agregarEnPartida
+crearJugador 4 3 Uruguay Sofia
+crearFecha 2/2/2023
+insertarJugadorListaJugadores
+
+crearJugada
+3 2 4 2 4
+agregarEnPartida
+crearJugador 2 1 Uruguay Alicia
+crearFecha 3/2/2023
+insertarJugadorListaJugadores
+
+# Imprimimos de Mayor a Menor
+imprimirMayorAMenorTJugadoresLDE
+
+# la pila de menores es la siguiente: 20, 10, 8, 3, 1
+menoresQueElResto
+
+liberarListaJugadores
+
+Fin

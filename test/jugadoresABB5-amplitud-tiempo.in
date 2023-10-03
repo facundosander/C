@@ -1,0 +1,19 @@
+crearArbolJugadores
+
+amplitudArbolJugadoresTiempo 10000 2
+
+liberarArbolJugadores
+
+crearArbolJugadores
+
+amplitudArbolJugadoresTiempo 16383 2
+
+liberarArbolJugadores
+
+crearArbolJugadores
+
+amplitudArbolJugadoresTiempo 16381 2
+
+liberarArbolJugadores
+
+Fin

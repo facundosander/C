@@ -1,0 +1,326 @@
+crearArbolJugadores
+
+# Construyo arbol 
+
+crearJugada
+1 1 2 3 4
+agregarEnPartida
+crearJugador 20 20 Uruguay Juan
+insertarJugadorArbolJugadores
+
+crearJugada
+1 4 3 2 1
+agregarEnPartida
+crearJugador 12 12 Brasil Roberto
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 30 30 Uruguay Luis
+insertarJugadorArbolJugadores
+
+crearJugada
+1 3 3 3 3
+agregarEnPartida
+crearJugador 6 6 Uruguay Andres
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 3 3 Uruguay Emilia
+insertarJugadorArbolJugadores
+
+crearJugada
+2 2 2 2 2
+agregarEnPartida
+crearJugador 4 4 Uruguay Ines
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 7 Uruguay Isabel
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 15 15 Uruguay Raul
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 25 25 Uruguay Noelia
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 22 22 Uruguay Matias
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 35 35 Uruguay Nicolas
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 33 33 Uruguay Emily
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 36 36 Uruguay Diego
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 23 23 Uruguay Martin
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 8 8 Uruguay Enrique
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 39 39 Uruguay Lucia
+insertarJugadorArbolJugadores
+
+# La maxima amplitud es 5
+amplitudArbolJugadores
+
+liberarArbolJugadores
+
+crearArbolJugadores
+
+# Construyo arbol 
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 20 20 Uruguay Juan
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 12 12 Uruguay Rosa
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 30 30 Uruguay Perez
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 6 6 Uruguay Jose
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 3 3 Uruguay Sofia
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 7 Uruguay Emiliano
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 15 15 Uruguay Raul
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 25 25 Uruguay Noelia
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 22 22 Uruguay Matias
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 23 23 Uruguay Noelia
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 35 35 Uruguay Nicolas
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 33 33 Uruguay Emily
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 36 36 Uruguay Diego
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 26 26 Uruguay Martin
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 16 16 Uruguay Enrique
+insertarJugadorArbolJugadores
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 13 13 Uruguay Lucia
+insertarJugadorArbolJugadores
+
+# Transformo arbol en lista
+serializarArbolJugadores
+
+liberarArbolJugadores
+
+crearPilaJugadores
+
+
+# Construyo lista 
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 36 36 Uruguay Diego
+
+apilarPilaJugadores
+liberarJugador
+
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 33 33 Uruguay Emily
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 26 26 Uruguay Martin
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 22 22 Uruguay Matias
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 16 16 Uruguay Enrique
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 13 13 Uruguay Lucia
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 7 7 Uruguay Emiliano
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 3 3 Uruguay Sofia
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 35 35 Uruguay Nicolas
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 25 25 Uruguay Noelia
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 15 15 Uruguay Raul
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 6 6 Uruguay Jose
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 30 30 Uruguay Perez
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 12 12 Uruguay Rosa
+apilarPilaJugadores
+liberarJugador
+
+crearJugada
+1 1 1 1 1
+agregarEnPartida
+crearJugador 20 20 Uruguay Juan
+apilarPilaJugadores
+liberarJugador
+
+# Transformo lista en arbol
+deserializarArbolJugadores
+
+Fin

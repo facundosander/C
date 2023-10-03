@@ -1,0 +1,156 @@
+crearCola
+
+# imprimo la cantidad de elementos en la cola, que debe ser 0
+imprimirCantidadCola
+
+# creo un árbol de jugadores, inicialmente vacío
+crearArbolJugadores
+
+# Encolo el arbol vacio recién creado
+encolar
+
+# creo un árbol de jugadores, inicialmente vacío
+crearArbolJugadores
+
+# creo e inserto 2 jugadores en el árbol
+crearJugador 5 11 Argentina Maria
+insertarJugadorArbolJugadores
+
+crearJugador 4 55 Uruguay Raul
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con dos jugadores
+encolar
+
+# creo un árbol de jugadores, inicialmente vacío
+crearArbolJugadores
+
+# creo e inserto 2 jugadores en el árbol
+crearJugador 5 11 Argentina Maria
+insertarJugadorArbolJugadores
+
+crearJugador 4 55 Uruguay Raul
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con dos jugadores
+encolar
+
+# creo un árbol de jugadores, inicialmente vacío
+crearArbolJugadores
+
+# creo e inserto 2 jugadores en el árbol
+crearJugador 5 11 Argentina Maria
+insertarJugadorArbolJugadores
+
+crearJugador 4 55 Uruguay Raul
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con dos jugadores
+encolar
+
+# creo un árbol de jugadores, inicialmente vacío
+crearArbolJugadores
+
+# creo e inserto 2 jugadores en el árbol
+crearJugador 5 11 Argentina Maria
+insertarJugadorArbolJugadores
+
+crearJugador 4 55 Uruguay Raul
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con dos jugadores
+encolar
+
+# imprimo la cantidad de elementos en la cola, debe haber 5 elementos
+imprimirCantidadCola
+
+# Obtengo el frente de la cola, es el árbol vacío
+obtenerFrenteCola
+
+# Elimino de la Cola el árbol vacio
+desencolar
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# imprimo la cantidad de elementos en la cola, debe haber 4 elementos
+imprimirCantidadCola
+
+# Obtengo el frente de la cola, es un árbol con 2 jugadores (Jugadores 4 y 5)
+obtenerFrenteCola
+
+# Elimino de la Cola el Arbol con Jugadores 4 y 5
+desencolar
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# imprimo la cantidad de elementos en la cola, debe haber 3 elementos
+imprimirCantidadCola
+
+# Obtengo el frente de la cola
+obtenerFrenteCola
+
+# Elimino de la Cola el Arbol
+desencolar
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# imprimo la cantidad de elementos en la cola, debe haber 2 elementos
+imprimirCantidadCola
+
+# Obtengo el frente de la cola
+obtenerFrenteCola
+
+# Elimino de la Cola el Arbol
+desencolar
+
+# imprimo la cantidad de elementos en la cola, debe haber 1 elemento
+imprimirCantidadCola
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# Obtengo el frente de la cola
+obtenerFrenteCola
+
+# Elimino de la Cola el Arbol
+desencolar
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# imprimo la cantidad de elementos en la cola, debe haber 0 elementos
+imprimirCantidadCola
+
+# libero la memoria asociada a la cola
+liberarCola
+
+crearCola
+
+# Creo arbol con un jugador
+crearArbolJugadores
+
+crearJugador 2 56 Chile Pablo
+insertarJugadorArbolJugadores
+
+# Encolo el arbol con Jugador 2
+encolar
+
+# imprimo la cantidad de elementos en la cola, debe haber 1 elemento
+imprimirCantidadCola
+
+# Obtengo el frente de la Cola
+obtenerFrenteCola
+
+# Elimino de la Cola el Arbol con Jugador 2
+desencolar
+
+# libero la memoria asociada al árbol que obtuve
+liberarArbolJugadores
+
+# libero la memoria asociada a la cola
+liberarCola
+
+Fin

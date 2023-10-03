@@ -1,0 +1,228 @@
+1>2>1/2/2023
+3>La fecha copiada es: 1/2/2023
+4>La nueva fecha aplazada 28 dias es: 1/3/2023
+5>La fecha copiada es: 1/3/2023
+6>7>#  año bisiesto.
+8>9>1/2/2024
+10>La nueva fecha aplazada 28 dias es: 29/2/2024
+11>12>#  mas de un mes.
+13>14>18/12/2023
+15>La nueva fecha aplazada 50 dias es: 6/2/2024
+16>17>#  mas de un mes y bisiesto.
+18>19>18/12/2023
+20>La fecha copiada es: 18/12/2023
+21>La nueva fecha aplazada 73 dias es: 29/2/2024
+22>La fecha copiada es: 29/2/2024
+23>24>#  mas de un año.
+25>26>18/12/2022
+27>La nueva fecha aplazada 366 dias es: 19/12/2023
+28>29>#  mas de un año y bisiesto.
+30>31>18/12/2023
+32>La nueva fecha aplazada 366 dias es: 18/12/2024
+33>34>35>La jugada NO contiene el movimiento en dicha posicion.
+36>La jugada contiene el movimiento en dicha posicion.
+37>La jugada contiene el movimiento en dicha posicion.
+38>La jugada NO contiene el movimiento en dicha posicion.
+39>40>41>El numero de la jugada es: 2
+42>Los movimientos son: Derecha Arriba Abajo Izquierda 
+43>La jugada copiado es: Jugada: 2 
+Movimientos: Derecha Arriba Abajo Izquierda 
+44>45>46>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+47>48>49>#  creo cuatro jugadas para ingresarlas a una partida.
+50>51>52>53>54>55>56>57>58>#  Creamos jugador.
+59>60>La jugada con id 4 está en la partida de la jugador.
+61>La jugada con id 1 está en la partida de la jugador.
+62>#  obtenerDePartidaDeTJugador.
+63>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+64>La jugada con id 6 NO está en la partida de la jugador.
+65>Jugador 6:  Jose, Uruguay, 22 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Arriba 
+Jugada: 3 
+Movimientos: Derecha Arriba Izquierda Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+66>67>68>#  se crean 10 jugadas para ingresarlos a una partida.
+69>70>71>72>73>74>75>76>77>78>79>80>81>82>83>84>85>86>87>88>89>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Abajo Izquierda Derecha Arriba 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+Jugada: 7 
+Movimientos: Izquierda Izquierda Derecha Derecha 
+Jugada: 8 
+Movimientos: Abajo Abajo Izquierda Arriba 
+Jugada: 9 
+Movimientos: Izquierda Izquierda Derecha Abajo 
+Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+90>La jugada con numero 9 se removió de la partida.
+91>La jugada con numero 8 se removió de la partida.
+92>La jugada con numero 3 se removió de la partida.
+93>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 4 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 5 
+Movimientos: Abajo Izquierda Derecha Arriba 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+Jugada: 7 
+Movimientos: Izquierda Izquierda Derecha Derecha 
+Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+94>La jugada con numero 3 NO está en la partida.
+95>La jugada con numero 10 está en la partida.
+96>Jugada: 10 
+Movimientos: Arriba Derecha Abajo Izquierda 
+97>#  jugadas en pos "1" con el movimiento "1".
+98>Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+Jugada: 2 
+Movimientos: Derecha Derecha Izquierda Izquierda 
+Jugada: 6 
+Movimientos: Derecha Derecha Arriba Arriba 
+99>100>101>#  --- Creamos ListaLDE de 4 jugadores ---.
+102>103>104>105>106>107>108>109>110>111>112>113>114>115>116>117>118>119>120>121>122>123>124>125>126>127>128>129>130>131>132>133>134>#  --- Fin creacion ListaLDE de jugadores (5 - 8) ---.
+135>La cantidad de jugadores en la lista es: 4.
+136>Jugador 6:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+1/12/2022
+Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Arriba Izquierda Izquierda Derecha 
+5/12/2022
+Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+1/1/2023
+Jugador 8:  Andres, Argentina, 21 años
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+Jugada: 4 
+Movimientos: Arriba Arriba Izquierda Izquierda 
+6/1/2023
+137>La jugador con id 3 NO está en la lista.
+138>La jugador con id 5 está en la lista.
+139>La jugador con id 6 está en la lista.
+140>La jugador con id 0 NO está en la lista.
+141>Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+142>143>144>La cantidad de jugadores en la lista es: 3.
+145>Jugador 6:  Juan, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Izquierda Arriba Abajo 
+1/12/2022
+Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Arriba Izquierda Izquierda Derecha 
+5/12/2022
+Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+1/1/2023
+146>147>La jugador con id 6 NO está en la lista.
+148>Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Arriba Izquierda Izquierda Derecha 
+149>La cantidad de jugadores en la lista es: 2.
+150>Jugador 7:  Luis, Uruguay, 21 años
+Jugada: 1 
+Movimientos: Derecha Derecha Derecha Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Izquierda Izquierda 
+Jugada: 3 
+Movimientos: Izquierda Arriba Abajo Abajo 
+1/1/2023
+Jugador 5:  Roberto, Brasil, 19 años
+Jugada: 1 
+Movimientos: Abajo Arriba Izquierda Derecha 
+Jugada: 2 
+Movimientos: Izquierda Izquierda Arriba Abajo 
+Jugada: 3 
+Movimientos: Arriba Izquierda Izquierda Derecha 
+5/12/2022
+151>152>153>#  La lista queda vacía.
+154>La cantidad de jugadores en la lista es: 0.
+155>156>157>Jugador 3: Maria, Australia, 22 años
+7/5/2002
+Jugador 2: Pedro, China, 21 años
+2/5/2002
+Jugador 1: Juan, Uruguay, 20 años
+26/1/1999
+158>La cantidad de jugadores en la lista es: 3.
+159>160>161>#  -- Primer jugador Juan 5 --.
+162>163>164>165>166>#  arbol con 1 elemento, es perfecto.
+167>El árbol de jugadores es perfecto.
+168>#  -- Segundo jugador Roberto 10 --.
+169>170>171>172>173>#  -- Tercer jugador Luis 2 --.
+174>175>176>177>178>#  -- Cuarto jugador Andres 25 --.
+179>180>181>182>183>#  -- Quinto jugador Emilia 7 --.
+184>185>186>187>188>#  arbol de altura 3.
+189>La altura del árbol de jugadores es: 3.
+190>#  remuevo la raiz, queda el 2 de raiz.
+191>192>#  arbol de altura 3.
+193>La altura del árbol de jugadores es: 3.
+194>#  arbol solo con subarbol derecho, no es perfecto.
+195>El árbol de jugadores NO es perfecto.
+196>#  remuevo la raiz, me quedo con subarbol derecho.
+197>198>#  arbol con 3 elementos.
+199>La cantidad de jugadores en el árbol es: 3.
+200>#  arbol de altura 2.
+201>La altura del árbol de jugadores es: 2.
+202>#  arbol perfecto.
+203>El árbol de jugadores es perfecto.
+204>#  -- Sexto jugador Ines 1 --.
+205>206>207>208>209>#  -- Septimo jugador Isabel 3 --.
+210>211>212>213>214>#  arbol de altura 4.
+215>La altura del árbol de jugadores es: 4.
+216>#  arbol NO es perfecto.
+217>El árbol de jugadores NO es perfecto.
+218>#  remuevo el jugador 7.
+219>220>#  remuevo el jugador 1.
+221>222>#  arbol con 3 elementos.
+223>La cantidad de jugadores en el árbol es: 3.
+224>#  arbol perfecto.
+225>El árbol de jugadores es perfecto.
+226>227>Fin.

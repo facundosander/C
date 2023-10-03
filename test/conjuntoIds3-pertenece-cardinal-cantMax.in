@@ -1,0 +1,44 @@
+# crea un conjunto con rango 1..10
+crearConjunto 10
+
+# verifica cantidad máxima del conjunto (10)
+cantMaxConjunto
+
+# inserta 7 elementos
+insertarConjunto 1
+insertarConjunto 2
+insertarConjunto 3
+insertarConjunto 5
+insertarConjunto 6
+insertarConjunto 7
+insertarConjunto 9
+# imprime el conjunto
+imprimirConjunto 
+
+# verifica dos elementos que si pertenecen
+perteneceConjunto 3
+perteneceConjunto 7
+
+# verifica dos elementos que no pertenecen y estan en el rango
+perteneceConjunto 4
+perteneceConjunto 8
+
+# verifica dos elementos que no pertenecen y no estan en el rango
+perteneceConjunto 0
+perteneceConjunto 11
+
+# imprime el cardinal del conjunto 
+cardinalConjunto
+
+# borra dos elementos e imprime el cardinal
+borrarConjunto 1
+borrarConjunto 5
+cardinalConjunto
+
+# verifica que los elementos borrados no esten mas 
+perteneceConjunto 1
+perteneceConjunto 5
+
+# libera el conjunto 
+liberarConjunto 
+Fin
