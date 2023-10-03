@@ -245,20 +245,37 @@ TPilaJugador serializarTJugadoresABB(TJugadoresABB t) {
     while (cantidadEnTColaJugadoresABB(cola) != 0){
         TJugadoresABB actualABB = frenteDeTColaJugadoresABB(cola);
         desencolarDeTColaJugadoresABB(cola);
-        TJugador copiaJugador = copiarTJugador(actualABB->jugador);
+        TJugador copiaJugador = actualABB->jugador;
         apilarEnTPilaJugador(pila, copiaJugador);
         
         if (actualABB->izq != NULL) encolarEnTColaJugadoresABB(actualABB->izq, cola);
         if (actualABB->der != NULL) encolarEnTColaJugadoresABB(actualABB->der, cola);
 
     }
+    TPilaJugador pilaFinal = crearTPilaJugador();
+    while (cantidadEnTPilaJugador(pila)!=0)
+    {
+        TJugador nodo = cimaDeTPilaJugador(pila);
+        apilarEnTPilaJugador(pilaFinal, nodo);
+        desapilarDeTPilaJugador(pila);
+    }
+    liberarTPilaJugador(pila);
     liberarTColaJugadoresABB(cola);
     
-    return pila;
+    return pilaFinal;
 }
 
 TJugadoresABB deserializarTJugadoresABB(TPilaJugador &p) {
-    return NULL; 
+    TJugadoresABB arbol = crearTJugadoresABB();
+
+    while (cantidadEnTPilaJugador(p) != 0)
+    {
+        TJugador jugadorCima = copiarTJugador(cimaDeTPilaJugador(p));
+        desapilarDeTPilaJugador(p);
+        insertarTJugadoresABB(arbol, jugadorCima);
+    }
+    liberarTPilaJugador(p);
+    return arbol;
 }
 
 
